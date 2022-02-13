@@ -7,15 +7,14 @@ function Tours(props){
         return(
             <>
          <div>
-     <h2>{tour.name}</h2>
-  
+     <h2 style={{color: "grey"}}>- {tour.name}</h2>
+     <img src={tour.image}/>
          </div>
             </>
 
             
         )
     })
-
 
     )
 }
