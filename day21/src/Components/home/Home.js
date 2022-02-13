@@ -1,7 +1,7 @@
-import Tours from "./Components/tours/Tours"
-import Header from "./Components/header/Header";
-import Footer from "./Components/footer/Footer";
-import ToursData from "./data/data.json";
+import Tours from "../tours/Tours"
+import Header from "../header/Header";
+import Footer from "../footer/Footer";
+import ToursData from "../../data/data.json";
 //this is how we create a component
 
 /// <Home/> is how we rnder the imported components
