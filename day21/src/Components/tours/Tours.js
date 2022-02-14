@@ -1,21 +1,22 @@
+import Tour from "./tour/Tour";
+import data from "../../data/data.json"
 
-function Tours(props){
-    console.log(props);
+function Tours(){
+    
     return (
+        <div>
+            {data.map((tour)=>(
+              
+               
+                <div key={tour.id}>
+                <Tour tour={tour} />
+                </div>
+        
 
-    props.data.map((tour)=>{
-        return(
-            <>
-         <div>
-     <h2 style={{color: "grey"}}>- {tour.name}</h2>
-     <img src={tour.image}/>
-         </div>
-            </>
-
-            
-        )
-    })
-
+            )
+            )}
+        </div>
+       
     )
 }
 
