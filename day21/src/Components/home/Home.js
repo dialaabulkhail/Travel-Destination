@@ -3,6 +3,7 @@ import Tours from "../tours/Tours";
 import Footer from "../footer/Footer";
 
 
+
 function Home() {
   return (
 
@@ -10,6 +11,7 @@ function Home() {
 <Header/>
 <Tours/>
 <Footer/>
+
     </div>
  
   );

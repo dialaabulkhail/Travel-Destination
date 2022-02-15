@@ -1,5 +1,8 @@
 import Tour from "./tour/Tour";
 import data from "../../data/data.json"
+import {Link} from "react-router-dom"
+import TourDetails from "../TourDetails/TourDetails";
+
 
 function Tours(){
     
@@ -9,10 +12,12 @@ function Tours(){
               
                
                 <div key={tour.id}>
-                <Tour tour={tour} />
+                   <Link to={`/tour/${tour.id}`}>
+                   <Tour tour={tour} />
+                   </Link>
+             
+                
                 </div>
-        
-
             )
             )}
         </div>
