@@ -1,14 +1,9 @@
 import { Link } from "react-router-dom";
-// import { useState } from "react"
-// import TourDetails from "../../TourDetails/TourDetails";
+
 
 
 function Tour({tour}){
-//     const [click, setClick] = useState("")
 
-//     function handleClick(){
-//  setClick()
-//     }
     return (
        <>
         <div>
